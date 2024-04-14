@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-style:italic;
+  padding: 5px;
+}
+
+body {
+  background: url("./background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.start-quiz-btn {
+  background-color: aquamarine;
+  font-size:xx-large;
+  padding: 15px;
+  width:50%;
+  border-radius: 60px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left:25%;
+  border-width: 5px;
+  border-color:silver;
+
+}
+
+.start-quiz-btn:hover {
+  background-color:cyan;
+  text-transform: uppercase;
+}
+
+
+.answered-state {
+  position: fixed;
+  top: 90%; /* Adjust this value to set the distance from the top */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: antiquewhite;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+
+button{
+  width:80px;
+  cursor:pointer;
+  text-align:center;
+  padding:5px;
+  font-style:italic;
+  font-weight:bold;
+  border-radius: 30px;
+}
+
+.timer {
+  font-size: 15px;
+  font-style: italic;
+  color: rgb(12, 4, 4);
+  margin: 5px;
+}
+
+
+
+
+.feedbacks {
+  border-radius: 10px; /* Rounded corners */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: all 0.3s ease-in-out; /* Smooth transitions on hover */
+
+  /* Font properties */
+  font-size: 18px; /* Adjust font size */
+  font-style: italic; /* Apply italic font style */
+  text-align: left; /* Center-align text */
+  line-height: 1.6; /* Increase line height for better readability */
+}
+
+.feedbacks:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+  transform: translateY(-5px); /* Slight bounce effect on hover (optional) */
+}
+
+.correct {
+  background-color: rgba(18, 125, 18, 0.8); /* More vibrant green */
+}
+
+.incorrect {
+  background-color: rgba(145, 20, 20, 0.8); /* More vibrant red */
+}
+
+.q {
+  color: #fff; /* Antique white */
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3); /* Subtle text shadow for depth */
+}
+
+.question{
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.correct-ans, .general-fbk, .specific-fbk {
+  font-size: 20px; /* Adjust font size for better hierarchy */
+  background-color: rgb(36, 209, 114,0.5);
+  border-radius: 15px;
+  padding: 0px;
+  font-weight:lighter;
+  margin: 7px; /* Reduce margin for tighter layout */
+  color: #340532; /* Antique white */
+  text-shadow: 0 0 1px rgba(75, 214, 236, 0.482); /* Subtle text shadow for readability */
+}
+
+.special-answer {
+  font-weight: bold; /* Apply bold font weight */
+  color: #5fe7ee; /* Antique white */
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2); /* Subtle text shadow for readability */
+
+}

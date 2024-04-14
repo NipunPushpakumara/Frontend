@@ -1,0 +1,23 @@
+.circle-background {
+    fill:none;
+    stroke:#add;
+    stroke-width: 0.001;
+  }
+  .circle-progress{
+    fill:none;
+    stroke-linecap:round;
+    stroke-linejoin: round;
+  }
+  .circle-text {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    fill: #0a0402;
+  }
+
+  .progress {
+    width: 0;
+    height: 100%;
+    background-color: green;
+    transition: width 1s ease-in-out; /* Animation duration: 1 second */
+  }
